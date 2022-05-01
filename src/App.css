@@ -1,0 +1,17 @@
+@import "normalize";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap");
+@import "./CSS/Header.css";
+@import "./CSS/Main.css";
+@import "./CSS/About.css";
+@import "./CSS/BookModels.css";
+@import "./CSS/HowItWorks.css";
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto", sans-serif;
+}

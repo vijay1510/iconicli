@@ -1,0 +1,38 @@
+.work_img {
+  width: 50%;
+  height: auto;
+  margin-left: 30%;
+  background-color: azure;
+}
+
+.works {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  border: 1px solid green;
+  margin-left: 20%;
+}
+
+.circle {
+  width: 84px;
+  height: 84px;
+  background: #1f0045;
+  border-radius: 100%;
+  color: aliceblue;
+  text-align: center;
+}
+
+.box {
+  width: 134.17px;
+  height: 52px;
+  background: #1f0045;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+hr {
+  color: black;
+}

@@ -1,0 +1,60 @@
+.book_img {
+  width: 295px;
+  height: 368px;
+  object-fit: cover;
+  box-shadow: -6px 6px 6px #8c52ff;
+}
+.book {
+  display: flex;
+  justify-content: space-around;
+}
+
+.book_h3 {
+  margin-left: 14%;
+  font-size: 28px;
+  margin-top: 20px;
+  color: #000000;
+}
+.book_h5 {
+  font-size: 28px;
+  color: #000000;
+  margin-left: 14%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.book_span {
+  font-size: 28px;
+  color: #8c52ff;
+}
+.book_model_details {
+  margin-top: 20px;
+}
+.book_model_details p {
+  margin-bottom: 10px;
+}
+
+p:nth-child(1) {
+  font-size: 20px;
+}
+p:nth-child(2) {
+  font-size: 16px;
+  color: #8c52ff;
+}
+
+.book_btn {
+  background: #8c52ff;
+  box-shadow: -2px 2px 11px #8c52ff;
+  border-radius: 8px;
+  color: aliceblue;
+  width: 72px;
+  height: 40px;
+  border: none;
+}
+
+.book_model_details p span {
+  margin-left: 100px;
+}
+
+.book div {
+  margin-right: 15px;
+}
