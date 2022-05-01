@@ -5,6 +5,8 @@ import Main from "./Componets/Main";
 import About from "./Componets/About";
 import BookModels from "./Componets/BookModels";
 import HowItWorks from "./Componets/HowItWorks";
+import Pricing from "./Componets/Pricing";
+import Join from "./Componets/Join";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       <About />
       <BookModels />
       <HowItWorks />
+      <Pricing />
+      <Join />
     </>
   );
 }

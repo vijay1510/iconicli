@@ -1,7 +1,14 @@
+.work_h2 {
+  margin-left: 14%;
+  font-size: 28px;
+  margin-top: 20px;
+  color: #000000;
+}
+
 .work_img {
   width: 50%;
   height: auto;
-  margin-left: 30%;
+  margin-left: 20%;
   background-color: azure;
 }
 

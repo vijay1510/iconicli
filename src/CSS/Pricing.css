@@ -1,0 +1,60 @@
+.pricing_h3 {
+  margin-left: 14%;
+  font-size: 28px;
+  margin-top: 20px;
+  color: #000000;
+}
+.pricing {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.pricing_charge {
+  font-size: 100px;
+  line-height: 150px;
+  text-align: center;
+  color: #1f0045;
+  margin-bottom: 20px;
+}
+
+.pricing_model_price {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 229px;
+  height: 48px;
+  color: #1f0045;
+}
+
+.pricing_clients_price {
+  width: 229px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #1f0045;
+}
+.pricing_client {
+  width: 101px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f0045;
+  margin-left: 60px;
+}
+.pricing_model {
+  width: 111px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f0045;
+  margin-left: 60px;
+}
+
+hr {
+  width: 48px;
+  border: 1px solid #ffc710;
+  margin-left: 90px;
+  margin-top: 10px;
+}
