@@ -33,6 +33,7 @@ a {
   height: 40px;
   border-radius: 8px;
   color: #1f0045;
+  background-color: #fff;
 }
 
 .header_btn:hover {

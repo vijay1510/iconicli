@@ -1,5 +1,4 @@
 import React from "react";
-import model from "../images/model.jpg";
 
 export default function BookModels() {
   return (

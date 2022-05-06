@@ -7,17 +7,30 @@ import BookModels from "./Componets/BookModels";
 import HowItWorks from "./Componets/HowItWorks";
 import Pricing from "./Componets/Pricing";
 import Join from "./Componets/Join";
+import Comments from "./Componets/Comments";
+import Footer from "./Componets/Footer";
+import Login from "./Componets/Login";
+import { Switch, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <>
       <Header />
-      <Main />
-      <About />
-      <BookModels />
-      <HowItWorks />
-      <Pricing />
-      <Join />
+      <Switch>
+        <Route exact path='/'>
+          <Main />
+          <About />
+          <BookModels />
+          <HowItWorks />
+          <Pricing />
+          <Join />
+          <Comments />
+          <Footer />
+        </Route>
+        <Route exact path='/login'>
+          <Login />
+        </Route>
+      </Switch>
     </>
   );
 }

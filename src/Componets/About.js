@@ -1,5 +1,4 @@
 import React from "react";
-import table from "../images/table.jpg";
 
 export default function About() {
   return (

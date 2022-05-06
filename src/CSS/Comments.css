@@ -1,0 +1,41 @@
+.comments_h3 {
+  margin-left: 14%;
+  font-size: 28px;
+  margin-top: 20px;
+  color: #000;
+}
+
+.comments_h6 {
+  font-size: 20px;
+
+  color: #1f0045;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-left: 6%;
+}
+.comments_model {
+  display: flex;
+  margin-top: 30px;
+  width: 600px;
+}
+.comments_img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: -6px 6px 6px #8c52ff;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.comments_p {
+  width: 263px;
+  height: 136px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1f0045;
+  margin-top: 6px;
+}

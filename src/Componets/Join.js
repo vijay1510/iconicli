@@ -79,11 +79,29 @@ export default function Join() {
               backgroundColor: "#1F0045",
               color: "white",
               padding: 10,
-              border: "none",
             }}
           />
-          <hr></hr>
-          <p>GENDER EQUALITY</p>
+          <hr className='join_hr'></hr>
+
+          <p style={{ width: 100, height: 60 }}>GENDER EQUALITY</p>
+        </div>
+        <div>
+          <TransgenderIcon
+            style={{
+              width: 60,
+              height: 60,
+              borderRadius: "100%",
+              backgroundColor: "#1F0045",
+              color: "white",
+              padding: 10,
+              border: "none",
+              marginLeft: 55,
+            }}
+          />
+          <hr className='join_hr' style={{ marginLeft: 60 }}></hr>
+          <p style={{ width: 223, height: 60, marginLeft: 10 }}>
+            DECENT WORK AND ECONOMIC GROWTH
+          </p>
         </div>
         <div>
           <TransgenderIcon
@@ -97,25 +115,11 @@ export default function Join() {
               border: "none",
             }}
           />
-          <hr></hr>
-          <p>DECENT WORK AND ECONOMIC GROWTH</p>
-        </div>
-        <div>
-          <TransgenderIcon
-            style={{
-              width: 60,
-              height: 60,
-              borderRadius: "100%",
-              backgroundColor: "#1F0045",
-              color: "white",
-              padding: 10,
-              border: "none",
-            }}
-          />
-          <hr></hr>
-          <p>REDUCED INEQUALITIES</p>
+          <hr className='join_hr'></hr>
+          <p style={{ width: 140, height: 60 }}>REDUCED INEQUALITIES</p>
         </div>
       </div>
+      <p className='main_dot'>............................</p>
     </>
   );
 }

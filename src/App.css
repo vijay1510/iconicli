@@ -7,6 +7,10 @@
 @import "./CSS/HowItWorks.css";
 @import "./CSS/Pricing.css";
 @import "./CSS/Join.css";
+@import "./CSS/Comments.css";
+@import "./CSS/Footer.css";
+@import "./CSS/Login.css";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100;400;600&family=Roboto:wght@100&display=swap");
 
 *,
 html,
@@ -16,4 +20,5 @@ body {
   box-sizing: border-box;
   font-family: "Pacifico", cursive;
   font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }

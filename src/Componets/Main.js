@@ -6,7 +6,7 @@ export default function Main() {
       <div className='main'>
         <div>
           <h3 className='main_h3'>Find and book diverse models near you!</h3>
-          <p className='main_p1'>
+          <p className='main_p1' style={{ color: "#1F0045" }}>
             Join our community of models and brands, and start collaborating
             with diverse models to bring out the full potential of your brand!
           </p>

@@ -40,13 +40,14 @@
 .about_btn {
   width: 56px;
   height: 56px;
-  border: 2px solid #8c52ff;
+  border: 3px solid #8c52ff;
+  padding-bottom: 15px;
   border-radius: 100%;
   margin-right: 15px;
   color: #8c52ff;
-  font-size: 40px;
-  font-weight: lighter;
-  padding-bottom: 5px;
+  font-size: 35px;
+  text-align: center;
+  background-color: #fff;
 }
 
 .about_dot {

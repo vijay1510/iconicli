@@ -3,7 +3,9 @@ import React from "react";
 export default function HowItWorks() {
   return (
     <>
-      <h2 className='work_h2'>How it works</h2>
+      <h2 id='working' className='work_h2'>
+        How it works
+      </h2>
       <img
         className='work_img'
         src={require("../images/diagram.png")}
