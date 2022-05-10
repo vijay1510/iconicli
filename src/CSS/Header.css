@@ -1,9 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
+
   padding-top: 10px;
-  width: auto;
+  width: 100%;
 }
 
 .header_nav {
@@ -88,3 +88,14 @@ a {
     margin-right: 0;
   }
 }
+
+/* @media (max-width: 600px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+} */

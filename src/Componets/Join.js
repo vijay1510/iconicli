@@ -104,9 +104,7 @@ export default function Join() {
           <hr className='join_hr' style={{}}></hr>
           <p
             style={{ width: 180, height: 60 }}
-            className='join_mobile_pr growth'>
-            DECENT WORK AND ECONOMIC GROWTH
-          </p>
+            className='join_mobile_pr growth'></p>
         </div>
         <div className='join_gender_mobile'>
           <TransgenderIcon
