@@ -58,3 +58,57 @@
   margin-left: 90px;
   margin-top: 10px;
 }
+
+.pricing_mobile {
+  text-align: center;
+  display: none;
+}
+
+@media (max-width: 830px) {
+  .pricing_main {
+    position: absolute;
+    top: 2300px;
+  }
+
+  .pricing_mobile {
+    display: block;
+    margin-top: 30px;
+  }
+  .pricing_icon {
+    display: none;
+  }
+  .pricing_h3 {
+    text-align: center;
+    margin-left: 0;
+  }
+  .pricing_mobile_model {
+    width: 160px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #000000;
+    margin-right: 20px;
+    font-size: 25px;
+    border: 1px solid #fff;
+  }
+  .pricing_mobile_model:focus {
+    background: #ded3f5;
+    border: 1px solid #8c52ff;
+    border-radius: 8px;
+  }
+  .pricing {
+    display: block;
+  }
+  .pricing_charge {
+    font-size: 60px;
+    text-align: start;
+    padding-left: 20%;
+  }
+  .pricing_model_display {
+    margin-left: 25%;
+  }
+  .pricing_client_display {
+    margin-left: 25%;
+    display: none;
+  }
+}

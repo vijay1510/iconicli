@@ -113,3 +113,59 @@ input {
   box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
+@media (max-width: 1520px) {
+  .login_blur {
+    display: none;
+  }
+  .login_h2 {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 80%;
+    font-size: 18px;
+  }
+  .login_form {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+  }
+  .login_p {
+    position: absolute;
+    top: 680px;
+    left: 25%;
+    width: 80%;
+    font-size: 18px;
+  }
+  .login_h2::after {
+    content: "!";
+  }
+}
+
+@media (max-width: 600px) {
+  .login_blur {
+    display: none;
+  }
+  .login_h2 {
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    width: 80%;
+    font-size: 18px;
+  }
+  .login_form {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+  }
+  .login_p {
+    position: absolute;
+    top: 680px;
+    left: 20%;
+    width: 80%;
+    font-size: 18px;
+  }
+  .login_h2::after {
+    content: "!";
+  }
+}

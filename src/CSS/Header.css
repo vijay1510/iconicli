@@ -1,8 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  /*border: 1px solid green;*/
+  border: 1px solid green;
   padding-top: 10px;
+  width: auto;
 }
 
 .header_nav {
@@ -53,21 +54,37 @@ a {
   -webkit-text-stroke: 1px #8c52ff;
 }
 
-@media (max-width: 908px) {
+@media (max-width: 830px) {
+  .header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+  }
   .header_menu {
     display: block;
-    margin-left: -100px;
-    border: 1px solid green;
+    margin-top: 0;
+    margin-right: 0;
   }
-  .header_button {
-    display: none;
+  .header_logo {
+    font-size: 2rem;
   }
+
   .header_nav {
     display: none;
+  }
+  .log {
+    display: block;
+    border-radius: 38px;
+    margin-top: -8px;
+    margin-left: 0%;
   }
 }
 @media (max-width: 1080px) {
   .mobile {
     display: none;
+  }
+  .log {
+    margin-right: 0;
   }
 }

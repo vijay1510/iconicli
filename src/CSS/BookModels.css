@@ -15,6 +15,9 @@
   margin-top: 20px;
   color: #000000;
 }
+.book_mobile {
+  display: none;
+}
 .book_h5 {
   font-size: 28px;
   color: #000000;
@@ -33,9 +36,16 @@
   margin-bottom: 10px;
 }
 
-p:nth-child(1) {
-  font-size: 20px;
+.book_dot {
+  width: 400px;
+
+  color: #ffc710;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-left: 40px;
+  letter-spacing: 5px;
 }
+
 p:nth-child(2) {
   font-size: 16px;
   color: #8c52ff;
@@ -57,4 +67,43 @@ p:nth-child(2) {
 
 .book div {
   margin-right: 15px;
+}
+
+@media (max-width: 830px) {
+  .book_book {
+    position: absolute;
+    top: 1300px;
+  }
+  .book_h3 {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-size: 24px;
+  }
+  .book_h5 {
+    display: none;
+  }
+  .book {
+    display: none;
+  }
+  .book_img {
+    width: 75%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .book_mobile {
+    margin-top: 40px;
+    display: block;
+    margin-left: 15px;
+    width: 95%;
+    text-align: center;
+  }
+  .book_btn {
+    position: absolute;
+  }
+  .book_place {
+    margin-left: -80px;
+  }
+  .book_model_details {
+  }
 }

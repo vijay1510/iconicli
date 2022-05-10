@@ -39,3 +39,12 @@
   color: #1f0045;
   margin-top: 6px;
 }
+
+@media (max-width: 830px) {
+  .comments_h3 {
+    display: none;
+  }
+  .comments {
+    display: none;
+  }
+}

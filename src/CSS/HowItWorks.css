@@ -3,12 +3,16 @@
   font-size: 28px;
   margin-top: 20px;
   color: #000000;
+  margin-top: 50px;
+}
+.work_div {
+  text-align: center;
 }
 
 .work_img {
-  width: 50%;
+  width: 60%;
   height: auto;
-  margin-left: 20%;
+  margin-top: 35px;
   background-color: azure;
 }
 
@@ -42,4 +46,15 @@
 }
 hr {
   color: black;
+}
+
+@media (max-width: 830px) {
+  #working {
+    position: absolute;
+    top: 1900px;
+  }
+  .work_img {
+    width: 80%;
+    height: auto;
+  }
 }

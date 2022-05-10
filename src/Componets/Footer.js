@@ -10,7 +10,7 @@ export default function Footer() {
     <>
       <div id='contact' className='footer'>
         <div className='footer_flex'>
-          <div>
+          <div className='footer_mobile'>
             <p style={{ marginBottom: 5 }}>Contact</p>
             <p style={{ marginBottom: 20, color: "#ffffff" }}>
               info@iconicli.com
@@ -27,9 +27,15 @@ export default function Footer() {
           <div>
             <h3 className='footer_name'>ICONICLI</h3>
             <h6 className='footer_h6'>THE ONE FOR ALL</h6>
+            <div className='footer_mobile_contact'>
+              <p>Contact</p>
+              <p style={{ color: "#fff" }}> info@iconicli.com</p>
+              <p>+46(0)761631995</p>
+              <p>Sågargatan 10B, 75318 Uppsala, Sweden</p>
+            </div>
             <p style={{ marginTop: 35 }}>© 2022 ICONICLI AKTIEBOLAG</p>
           </div>
-          <div>
+          <div className='footer_mobile'>
             <p style={{ textAlign: "end", marginBottom: 6 }}>Address</p>
             <p style={{ color: "#ffffff" }}>
               Sågargatan 10B, 75318 Uppsala, Sweden

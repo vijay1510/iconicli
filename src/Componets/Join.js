@@ -61,7 +61,9 @@ export default function Join() {
         </div>
       </div>
       <div className='join_details'>
-        <p className='join_bigger'>BE PART OF SOMETHING BIGGER!</p>
+        <p className='join_bigger' style={{ color: "#1F0045" }}>
+          BE PART OF SOMETHING BIGGER!
+        </p>
         <p className='join_support' style={{ color: "#1f0045" }}>
           By using and supporting ICONICLI, you will automatically contributing
           to, and be part of a higher purpose! We strive to make a better world
@@ -70,7 +72,7 @@ export default function Join() {
         </p>
       </div>
       <div className='join_gender'>
-        <div>
+        <div className='join_gender_mobile'>
           <TransgenderIcon
             style={{
               width: 60,
@@ -83,9 +85,11 @@ export default function Join() {
           />
           <hr className='join_hr'></hr>
 
-          <p style={{ width: 100, height: 60 }}>GENDER EQUALITY</p>
+          <p style={{ width: 100, height: 60 }} className='join_mobile_pr'>
+            GENDER EQUALITY
+          </p>
         </div>
-        <div>
+        <div className='join_gender_mobile'>
           <TransgenderIcon
             style={{
               width: 60,
@@ -95,15 +99,16 @@ export default function Join() {
               color: "white",
               padding: 10,
               border: "none",
-              marginLeft: 55,
             }}
           />
-          <hr className='join_hr' style={{ marginLeft: 60 }}></hr>
-          <p style={{ width: 223, height: 60, marginLeft: 10 }}>
+          <hr className='join_hr' style={{}}></hr>
+          <p
+            style={{ width: 180, height: 60 }}
+            className='join_mobile_pr growth'>
             DECENT WORK AND ECONOMIC GROWTH
           </p>
         </div>
-        <div>
+        <div className='join_gender_mobile'>
           <TransgenderIcon
             style={{
               width: 60,
@@ -116,7 +121,9 @@ export default function Join() {
             }}
           />
           <hr className='join_hr'></hr>
-          <p style={{ width: 140, height: 60 }}>REDUCED INEQUALITIES</p>
+          <p style={{ width: 140, height: 60 }} className='join_mobile_pr'>
+            REDUCED INEQUALITIES
+          </p>
         </div>
       </div>
       <p className='main_dot'>............................</p>

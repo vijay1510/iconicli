@@ -4,7 +4,7 @@ export default function Main() {
   return (
     <>
       <div className='main'>
-        <div>
+        <div className='main_mobile'>
           <h3 className='main_h3'>Find and book diverse models near you!</h3>
           <p className='main_p1' style={{ color: "#1F0045" }}>
             Join our community of models and brands, and start collaborating

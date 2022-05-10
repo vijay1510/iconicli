@@ -17,7 +17,7 @@ export default function About() {
             <span className='about_dot'>....</span>
           </div>
         </div>
-        <div>
+        <div className='about_mobile_div'>
           <h3 className='about_h3'>Online service for models and brands</h3>
           <div className='about_p'>
             <p>
